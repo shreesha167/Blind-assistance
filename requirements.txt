@@ -1,8 +1,9 @@
 face_recognition
 opencv-python
 numpy
-tflite_runtime
+tflite-runtime
 picamera2
 espeak
 alsa
 libcamera
+RPi.GPIO

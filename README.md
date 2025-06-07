@@ -1,25 +1,28 @@
-# Face Recognition Based Attendance System
+# Object and Gender Detection System Using TensorFlow Lite
 
-This project is a real-time face recognition-based attendance system built using Python. It captures faces using a webcam, compares them with preloaded known images, and logs attendance in a CSV file with the current date and timestamp.
+This Raspberry Pi-based project uses a TensorFlow Lite object detection model along with a gender classification model. It integrates GPIO-controlled components like a buzzer and distance sensor, and provides audio feedback using `espeak`.
 
-## 📦 Features
+## 📌 Features
 
-- Real-time video feed from webcam
-- Face detection and recognition
-- Automatic attendance marking
-- CSV-based record logging
-- Simple and efficient architecture
+- Real-time object detection using TFLite
+- Gender detection using a separate gender classification model
+- Distance measurement with HC-SR04 sensor
+- Buzzer alert if an object is within a threshold distance
+- Audio feedback using `espeak`
+- Multithreaded video capture
 
-## 🚀 Getting Started
-
-### Prerequisites
+## 🧰 Technologies Used
 
 - Python 3.7+
-- Webcam (built-in or external)
+- OpenCV
+- TensorFlow Lite Runtime
+- NumPy
+- RPi.GPIO
+- espeak
 
-### Installation
+## 🚀 Setup Instructions
 
-Install dependencies:
+### 1. Install Dependencies
 
 ```bash
-pip install face_recognition opencv-python numpy
+pip
